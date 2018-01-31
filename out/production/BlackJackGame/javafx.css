@@ -6,6 +6,7 @@
 	-fx-font-size: 14px;
 	-fx-text-align: center;
 	-fx-width: 70px;
+	-fx-cursor: hand;
 }
 .hit:hover{
 	-fx-background-color: #dfb300;
@@ -19,6 +20,7 @@
 	-fx-font-size: 14px;
 	-fx-text-align: center;
 	-fx-width: 70px;
+	-fx-cursor: hand;
 }
 .stand:hover{
 	-fx-background-color: #dfb300;
@@ -32,8 +34,13 @@
 	-fx-font-size: 14px;
 	-fx-text-align: center;
 	-fx-width: 70px;
+	-fx-cursor: hand;
 }
 
 .play:hover{
 	-fx-background-color: #dfb300;
+}
+
+button:disabled {
+    -fx-cursor: not-allowed;
 }
